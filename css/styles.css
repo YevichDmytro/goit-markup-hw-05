@@ -538,9 +538,9 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: fixed;
   top: 0;
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  pointer-events: none; */
+  pointer-events: none;
 }
 
 .is-open {
@@ -666,7 +666,7 @@ img {
   padding: 8px 16px;
   color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -678,12 +678,6 @@ img {
 .form-wrap-checkbox {
   margin-top: 16px;
   margin-bottom: 24px;
-}
-
-.label-checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .label-checkbox-span {
